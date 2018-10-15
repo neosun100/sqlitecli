@@ -31,7 +31,7 @@ from pygments.token import Token
 from .packages.special.main import NO_QUERY
 from .packages.prompt_utils import confirm, confirm_destructive_query, prompt
 from .packages.tabular_output import sql_format
-import packages.special as special
+from .packages import special
 from .sqlcompleter import SQLCompleter
 from .clitoolbar import create_toolbar_tokens_func
 from .clistyle import style_factory
